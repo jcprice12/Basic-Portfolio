@@ -1,0 +1,163 @@
+html, body{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	background-color: #eee;
+	margin:0;
+   	padding:0;
+   	height:100%;
+}
+
+a{
+	text-decoration:none;
+	color:#777777;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	color:#4aaaa5;
+}
+
+h1{
+	font-size:40px;
+	color:#fff;
+}
+
+h2{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+header{
+	border-bottom: thick solid #ccc;
+}
+
+p{
+	font-size: 20px;
+	line-height: 2.0;
+}
+
+.clearFix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.iconContainer{
+	position:relative;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.iconsContainer{
+	position:relative;
+}
+
+.iconImg{
+	height: 50px;
+}
+
+.mainSection{
+	float:left;
+	width:650px;
+	background-color: #ffffff;
+}
+
+.mainSectionContainer{
+	margin:10px;
+}
+
+.mainSectionHeader{
+	padding:10px;
+	margin-bottom:20px;
+}
+
+.menuLink{
+	font-size:25px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.myFooter{
+	background-color: #666;
+	border-top: thick solid #4aaaa5;
+	text-align: center;
+	position:fixed;
+   	bottom:0;
+   	width:100%;
+   	height:40px;   /* Height of the footer */
+}
+
+.myHeader{
+	position:relative;
+	height:80px;
+	background-color: #ffffff;
+}
+
+.myHeaderContainer{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	height:100%;
+	width:960px;
+}
+
+.myNameContainer{
+	float:left;
+	background-color: #4aaaa5;
+	padding:10px 20px 10px 20px;
+	position:absolute;
+	bottom:0;
+}
+
+.myNav{
+	float:right;
+	margin-right: 10px;
+	display: table;
+	height:100%;
+}
+
+.normalContainer{
+	left:0;
+	right:0;
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-bottom:40px;   /* Height of the footer */
+}
+
+.sideSection{
+	float:right;
+	width:270px;
+	background-color: #ffffff;
+} 
+
+.sideSectionContainer{
+	margin:10px;
+}
+
+.sideSectionHeader{
+	padding:10px;
+	margin-bottom:20px;
+}
+
+.siteContainer{
+	min-height:100%;
+	height:100%;
+   	position:relative;
+}
+
+#profileImage{
+	max-width: 400px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
