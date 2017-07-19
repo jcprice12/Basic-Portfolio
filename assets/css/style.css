@@ -45,10 +45,45 @@ p{
 	line-height: 1.8;
 }
 
+.card{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	width:90%;
+	height: 100%;
+	background:white;
+}
+
+.cardBanner{
+	position:absolute;
+	margin:auto;
+	bottom:10px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	width:100%;
+	background-color: #4aaaa5;
+	color:#fff;
+	text-align: center;
+}
+
+.cardImage{
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	height: auto;
+	max-height: 95%;
+	width:auto;
+	max-width: 100%;
+}
+
 .clearFix:after{
-  content: "";
-  display: table;
-  clear: both;
+  	content: "";
+  	display: table;
+  	clear: both;
 }
 
 .copyContainer{
@@ -94,10 +129,6 @@ p{
 	padding-left: 10px;
 }
 
-.myFormInput{
-
-}
-
 .myFormElement{
 	position:relative;
 	display: block;
@@ -139,6 +170,22 @@ p{
 	height:100%;
 }
 
+.myTable{
+	position:relative;
+	height:100%;
+	width:100%;
+}
+
+.myTd{
+	position:relative;
+	height:300px;
+}
+
+.myTr{
+	position:relative;
+	width:100%;
+}
+
 .normalContainer{
 	left:0;
 	right:0;
@@ -169,6 +216,12 @@ p{
 	width:100%;
 }
 
+.tableContainer{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
 .wrap {
   min-height: 100%;
   /* equal to footer height */
@@ -194,13 +247,6 @@ p{
 	width:100%;
 }
 
-#profileImage{
-	max-width: 400px;
-	float:left;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-
 #mySubmitButton{
 	border:none;
 	width:150px;
@@ -209,4 +255,11 @@ p{
 	background-color: #4aaaa5;
 	font-size: 20px;
 	cursor: pointer;
+}
+
+#profileImage{
+	max-width: 400px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
