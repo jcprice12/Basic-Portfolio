@@ -8,6 +8,7 @@ html, body{
 
 body{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
 	color:#777777;
 	background-color: #eee;
 }
@@ -41,7 +42,7 @@ header{
 
 p{
 	font-size: 20px;
-	line-height: 2.0;
+	line-height: 1.8;
 }
 
 .clearFix:after{
@@ -71,7 +72,7 @@ p{
 }
 
 .mainSectionContainer{
-	margin:10px;
+	margin:20px;
 }
 
 .mainSectionHeader{
@@ -84,6 +85,19 @@ p{
 	display: table-cell;
 	vertical-align: middle;
 	padding-left: 10px;
+}
+
+.myFormInput{
+
+}
+
+.myFormElement{
+	position:relative;
+	display: block;
+    padding: 10px;
+    box-sizing: border-box;
+	width:100%;
+	margin: 10px 0px 10px 0px;
 }
 
 .myHeader{
@@ -143,6 +157,11 @@ p{
 	margin-bottom:20px;
 }
 
+.subContainer{
+	position:relative;
+	width:100%;
+}
+
 .wrap {
   min-height: 100%;
   /* equal to footer height */
@@ -161,9 +180,24 @@ p{
 	text-align: center;
 }
 
+#contactForm{
+	position:relative;
+	width:100%;
+}
+
 #profileImage{
 	max-width: 400px;
 	float:left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+}
+
+#mySubmitButton{
+	border:none;
+	width:150px;
+	height:50px;
+	color:#fff;
+	background-color: #4aaaa5;
+	font-size: 20px;
+	cursor: pointer;
 }
