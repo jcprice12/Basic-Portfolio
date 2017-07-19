@@ -51,6 +51,13 @@ p{
   clear: both;
 }
 
+.copyContainer{
+	display:table-cell;
+	vertical-align: middle;
+	color:#fff;
+	font-size: 14px;
+}
+
 .iconContainer{
 	position:relative;
 	margin-right: 5px;
@@ -178,6 +185,8 @@ p{
     border-top-width: 5px;
     border-top-color: #4aaaa5;
 	text-align: center;
+	width:100%;
+	display:table;
 }
 
 #contactForm{
