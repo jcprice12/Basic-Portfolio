@@ -1,13 +1,24 @@
 $("tr:odd").css("background-color", "#eee");
 
-var images = document.getElementsByClassName("cardImage");
-for(i = 0; i < images.length; i++){
-	var image = images[i];
-	var parent = image.parentElement;
-	var parentHeight = $(parent).height();
-	var imageHeight = $(image).height();
-	var imageWidth = $(image).width();
-	createBanner(parent, parentHeight, imageWidth, imageHeight, i);
+$(document).ready(function(){
+	createBanners();
+
+	document.getElementById("myImageBanner0").innerHTML = "Hangman";
+	document.getElementById("myImageBanner1").innerHTML = "RPG Game";
+	document.getElementById("myImageBanner2").innerHTML = "Trivia Game";
+	document.getElementById("myImageBanner3").innerHTML = "Info Widget";
+});
+
+function createBanners(){
+	var images = document.getElementsByClassName("cardImage");
+	for(i = 0; i < images.length; i++){
+		var image = images[i];
+		var parent = image.parentElement;
+		var parentHeight = $(parent).height();
+		var imageHeight = $(image).height();
+		var imageWidth = $(image).width();
+		createBanner(parent, parentHeight, imageWidth, imageHeight, i);
+	}
 }
 
 function createBanner(parent, parentHeight, imageWidth, imageHeight, index){
@@ -31,9 +42,4 @@ function createBanner(parent, parentHeight, imageWidth, imageHeight, index){
 	myDiv.innerHTML = myId;
 	parent.appendChild(myDiv);
 }
-
-document.getElementById("myImageBanner0").innerHTML = "Hangman";
-document.getElementById("myImageBanner1").innerHTML = "RPG Game";
-document.getElementById("myImageBanner2").innerHTML = "Trivia Game";
-document.getElementById("myImageBanner3").innerHTML = "Info Widget";
 
