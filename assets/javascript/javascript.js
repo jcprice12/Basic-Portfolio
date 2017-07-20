@@ -1,6 +1,7 @@
-$("tr:odd").css("background-color", "#eee");
-
 $(document).ready(function(){
+
+	$("tr:odd").css("background-color", "#eee");
+
 	//This is janky and I feel like there's a better way to do this with pure css
 	createBanners();
 	document.getElementById("myImageBanner0").innerHTML = "Hangman";
