@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-	$("tr:odd").css("background-color", "#eee");
+	//$("tr:odd").css("background-color", "#ddd");
 
 	//This is janky and I feel like there's a better way to do this with pure css
-	createBanners();
+	/*createBanners();
 	document.getElementById("myImageBanner0").innerHTML = "Hangman";
 	document.getElementById("myImageBanner1").innerHTML = "RPG Game";
 	document.getElementById("myImageBanner2").innerHTML = "Trivia Game";
-	document.getElementById("myImageBanner3").innerHTML = "Info Widget";
+	document.getElementById("myImageBanner3").innerHTML = "Info Widget";*/
 });
 
 function createBanners(){
