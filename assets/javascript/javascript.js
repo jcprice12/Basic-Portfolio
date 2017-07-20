@@ -1,8 +1,8 @@
 $("tr:odd").css("background-color", "#eee");
 
 $(document).ready(function(){
+	//This is janky and I feel like there's a better way to do this with pure css
 	createBanners();
-
 	document.getElementById("myImageBanner0").innerHTML = "Hangman";
 	document.getElementById("myImageBanner1").innerHTML = "RPG Game";
 	document.getElementById("myImageBanner2").innerHTML = "Trivia Game";
